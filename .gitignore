@@ -1,0 +1,35 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+local.settings.json
+*.pem
+*.key
+*.pfx
+
+# Azure local settings
+.azure/
+.azurefunctions/
+
+# Local datasets
+data/azure/
+data/sample/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+gold_download_check.csv
